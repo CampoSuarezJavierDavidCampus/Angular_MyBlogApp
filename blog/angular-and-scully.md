@@ -1,7 +1,8 @@
 ---
 title: Angular and Scully
 description: blog description
-published: false
+published: true
+slug: Angular-and-Scully
 ---
 
 # Angular and Scully
