@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ArticlesComponent } from './articles.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -9,7 +10,8 @@ import { ArticlesComponent } from './articles.component';
     ArticlesComponent
   ],
   imports: [
-    CommonModule,
+    RouterModule,
+    CommonModule
   ],
   exports:[
     ArticlesComponent
