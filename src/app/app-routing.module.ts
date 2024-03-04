@@ -7,6 +7,7 @@ const routes: Routes = [
   //TODO Add Articles Routes To Router
   { path: 'articles', loadChildren: () => import('./articles/articles.module').then(m => m.ArticlesModule) },
   {path:'',pathMatch:'full',redirectTo:'articles'},
+  { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) },
   {path:'**',redirectTo:'articles'},
 ];
 
