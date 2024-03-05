@@ -13,8 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-Run `npx scurlly serve` to build the scully server. the scully files will be stored in `dist/statics`
+then run `npx scully serve`  to build the scully server. the scully files will be stored in `dist/statics`
 
 ## Scurlly
 Run `ng g @scullyio/init:add-post --name="<<post name>>" ` for add a new blog on the project. the blogs was saving on blog folder you need to change the "publiched" value to true.

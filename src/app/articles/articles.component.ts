@@ -15,7 +15,7 @@ export class ArticlesComponent implements OnInit {
   ) {}
   ngOnInit(): void {
     this.post$ = this.scullyService.available$.pipe(
-      map(post => post.filter(post => post.title))
+      map(posts => posts.filter(p => p.title))
     );
   }
 

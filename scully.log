@@ -246,3 +246,19 @@ When there are extraRoutes in your config, we will still try to render those.
 
 
 Folder "./scully" doesn't seem to contain custom plugins
+Folder "./scully" doesn't seem to contain custom plugins
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+Folder "./scully" doesn't seem to contain custom plugins
+handleUnknownRoute: "/articles", 404:""
+handleUnknownRoute: "/articles", 404:""
+handleUnknownRoute: "/articles", 404:""
+Folder "./scully" doesn't seem to contain custom plugins
+Folder "./scully" doesn't seem to contain custom plugins
+Folder "./scully" doesn't seem to contain custom plugins
+Folder "./scully" doesn't seem to contain custom plugins
+handleUnknownRoute: "/blog/blog-description/index.html", 404:""
+handleUnknownRoute: "/blog/Angular-and-Scully/index.html", 404:""
+Folder "./scully" doesn't seem to contain custom plugins
